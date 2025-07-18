@@ -9,6 +9,7 @@ public class HelloworldController {
 
 	@GetMapping("/hw")
 	public String helloworld() {
+		System.out.println("## KKA in HelloWorld Controller ##");
 		return "Hello World !!";
 	}
 
